@@ -1,0 +1,11 @@
+[package]
+name = "rusty_ai"
+version = "0.1.0"
+edition = "2021"
+authors = ["Arnab Phukan <iamarnab.phukan@gmail.com>"]
+
+[dependencies]
+clap = { version = "4.5.32", features = ["derive"] }
+color-eyre = "0.6.3"
+rpassword = "7.3.1"
+rprompt = "2.1.1"
