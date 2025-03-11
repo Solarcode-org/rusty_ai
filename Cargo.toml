@@ -1,5 +1,5 @@
 [package]
-name = "rusty_ai"
+name = "crabby_ai"
 version = "0.1.0"
 edition = "2021"
 authors = ["Arnab Phukan <iamarnab.phukan@gmail.com>"]

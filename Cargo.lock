@@ -171,6 +171,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5b63caa9aa9397e2d9480a9b13673856c78d8ac123288526c37d7839f2a86990"
 
 [[package]]
+name = "crabby_ai"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "color-eyre",
+ "rpassword",
+ "rprompt",
+]
+
+[[package]]
 name = "eyre"
 version = "0.6.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -312,16 +322,6 @@ name = "rustc-demangle"
 version = "0.1.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "719b953e2095829ee67db738b3bfa9fa368c94900df327b3f07fe6e794d2fe1f"
-
-[[package]]
-name = "rusty_ai"
-version = "0.1.0"
-dependencies = [
- "clap",
- "color-eyre",
- "rpassword",
- "rprompt",
-]
 
 [[package]]
 name = "sharded-slab"
