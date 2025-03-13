@@ -4,7 +4,7 @@ use color_eyre::owo_colors::OwoColorize;
 use super::parser::{parse, parsed_to_text, MachineReadable};
 use crate::prelude::*;
 
-pub(crate) fn execute<T: AsRef<str>>(text: T, is_mega: bool) -> Result {
+pub fn execute<T: AsRef<str>>(text: T, is_mega: bool) -> Result {
     let parsed = parse(text);
     let primary_command = if let Some(cmd) = parsed.first() {
         cmd
