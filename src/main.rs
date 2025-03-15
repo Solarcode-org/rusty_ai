@@ -5,8 +5,7 @@ use clap::Parser;
 use color_eyre::owo_colors::OwoColorize;
 use prelude::*;
 use utils::cli::{Args, Commands};
-use crate::utils::art::CRAB_ART;
-use crate::utils::executor::execute;
+use crabby_ai::{execute, CRAB_ART};
 
 fn main() -> Result {
     let args = Args::parse();

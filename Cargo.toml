@@ -7,6 +7,14 @@ description = "A simple chatbot that is NOT AN LLM"
 license = "Apache-2.0"
 repository = "https://github.com/Solarcode-org/rusty_ai"
 
+[lib]
+name = "crabby_ai"
+path = "src/lib.rs"
+
+[[bin]]
+name = "crabby"
+path = "src/main.rs"
+
 [dependencies]
 clap = { version = "4.5.32", features = ["derive"] }
 color-eyre = "0.6.3"
